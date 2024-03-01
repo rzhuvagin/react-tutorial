@@ -1,0 +1,11 @@
+.userItem {
+  padding: 8px 12px;
+  border: 1px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userItem__name {
+  font-weight: bold;
+}

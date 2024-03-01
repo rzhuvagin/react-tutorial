@@ -1,11 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Counter } from './counter/Counter';
+import UserList from './users/userList/UserList';
+import NewUser from './users/newUser/NewUser';
 
 function App() {
   return (
-    <Counter></Counter>
+    <>
+      <UserList></UserList>
+      <NewUser></NewUser>
+    </>
   );
 }
 

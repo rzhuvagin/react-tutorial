@@ -1,0 +1,7 @@
+.userList {
+  display: grid;
+  justify-items: stretch;
+  justify-content: center;
+  grid-gap: 6px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
